@@ -98,4 +98,5 @@ void welcomeTitle()
 	cout << endl;
 
 	cout << "welcome to fry's text processing platform!" << endl;
+	cout << "the project use git to control the version" << endl;
 }
