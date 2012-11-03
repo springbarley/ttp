@@ -37,7 +37,7 @@ void testOpenFile()
 }
 int main(void)
 {
-	cout << sizeof();
+	cout << sizeof(int);
 	//welcomeTitle();
 	//testSuffixArray();
 	//testBloomFilter();

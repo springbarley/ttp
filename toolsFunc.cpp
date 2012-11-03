@@ -1,6 +1,7 @@
 #include "toolsFunc.h"
 
 int strLess<SuffixArray>::count = 0;
+
 pair<int, string> getMostDupString(const string& a, const string& b)
 {
 	if(a.length() == 0 || b.length() == 0)
@@ -16,8 +17,7 @@ pair<int, string> getMostDupString(const string& a, const string& b)
 	while(i < a.length() && i < b.length());
 	return make_pair(i, oss.str());
 }
-
-bool stringLess(unsigned int a, unsigned int b)
+/*bool stringLess(unsigned int a, unsigned int b)
 {
 	SuffixArray sa("english.txt");
 	string words_a = sa.getWordsFromText(a, '\n');
@@ -32,7 +32,8 @@ bool stringLess(unsigned int a, unsigned int b)
 	}
 	while(*pos_a++ == *pos_b++);
 	return c_a < c_b; 
-}
+}*/
+
 void noticeFunFinish(const char* function_name, ostream& os)
 {
 	if(strlen(function_name) <= 0)

@@ -4,10 +4,10 @@
 #include <string>
 #include <algorithm>
 #include <vector>
+#include <string.h>
+#include <sys/types.h>
 #include <map>
-#include <unordered_map>
 #include <fstream>
-#include <unordered_set>
 #include <sstream>
 #include <queue>
 #include <functional>

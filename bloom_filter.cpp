@@ -12,7 +12,7 @@ void addBloomFilter(string& s, unsigned int (*hash_ptr[])(const string&), bitset
 	}
 }
 
-bool searchString(string& s, unsigned int (*hash_ptr[])(const string&), bitset<BIT_NUM>& bloom_bit_set)
+bool searchString(const string& s, unsigned int (*hash_ptr[])(const string&), bitset<BIT_NUM>& bloom_bit_set)
 {
 	int i = 0;
 	for(; i < HASH_FUNC_NUM; i++)
