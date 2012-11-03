@@ -14,7 +14,7 @@ class strLess
 {
 private:
 	Ty& sa_;
-	static int count;
+	//static int count;
 public:
 	strLess(Ty& sa):sa_(sa)
 	{
@@ -32,9 +32,9 @@ public:
 				return c_a < c_b;
 		}
 		while(*pos_a++ == *pos_b++);
-		count++;
+		/*count++;
 		if(count % 10000 == 0)
-			cout << count << endl;
+			cout << count << endl;*/
 		return c_a < c_b;
 	}
 };

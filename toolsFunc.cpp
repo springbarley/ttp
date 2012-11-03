@@ -1,6 +1,6 @@
 #include "toolsFunc.h"
 
-int strLess<SuffixArray>::count = 0;
+//int strLess<SuffixArray>::count = 0;
 
 pair<int, string> getMostDupString(const string& a, const string& b)
 {
