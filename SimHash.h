@@ -7,6 +7,8 @@
 ******************************************************************/
 class SimHash
 {
+private:
+	long long finger;
 public:
 	long long getHash(char* s, int length);
 	SimHash(void);
