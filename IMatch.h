@@ -6,6 +6,8 @@
 ******************************************************************/
 class IMatch
 {
+private:
+	long long finger;
 public:
 	IMatch(void);
 	~IMatch(void);
